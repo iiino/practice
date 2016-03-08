@@ -1,0 +1,153 @@
+// search cassete style ++
+.search_cassete {
+	background: #fff373;
+	border-bottom: 1px solid #4b5c8e;
+	border-top: 2px solid #4b5c8e;
+	padding-bottom: 14px;
+	&:first-child { border-top: none;}
+	&:last-of-type {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+}
+.numberDisplay + .search_cassete {
+	border-top: none;
+}
+
+
+.search_title {
+	background: #4b5c8e;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 1.4;
+	padding: 9px 10px;
+}
+.search_cassete_inner {
+	border-bottom: 1px solid #4b5c8e;
+	.cassete_info_box {
+		display: block;
+		color: #666;
+		background: #fff;
+		padding: 14px 7px 15px 7px;
+		.cassete_info_box_inner {
+			overflow: hidden;
+			width: 100%;
+			display: table;
+			.left_box,.right_box {
+				display: table-cell;
+				vertical-align: top;
+			}
+			.left_box {
+				width: 100px;
+			}
+			.right_box {
+				padding: 0 10px 0 7px;
+			}
+		}
+	}
+}
+.photo {
+	display: table;
+	width: 100px;
+	height: 100px;
+	.image_box {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		& img {
+			max-width: 100px;
+			max-height: 100px;
+			background-color: #d6d6d6;
+			border: 1px solid #d8d8d8;
+		}
+	}
+}
+
+.reservation {
+	text-align: center;
+	border-radius: 2px;
+	width: 100px;
+	padding: 3px 0;
+	margin: 10px 0;
+}
+
+.cassete_title {
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 1.3;
+	color: #5176e1;
+}
+
+.ac_text {
+	margin: 10px 0;
+	font-size: 10px;
+	line-height: 1.5;
+}
+
+.int_text {
+	font-size: 11px;
+	line-height: 1.5;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.shop_info {
+	overflow: hidden;
+	li {
+		float: left;
+		margin: 0 2px 2px 0;
+		padding-left: 14px;
+		span {
+			display: inline-block;
+			vertical-align: top;
+			font-size: 10px;
+			margin-top: 2px;
+		}
+	}
+	.icon_night,.icon_night_01,.icon_night_02 {padding-left: 33px;}
+}
+
+.shop_point {
+	margin-top: 5px;
+	overflow: hidden;
+	li {
+		margin-right: 1px;
+		float: left;
+	}
+}
+
+.icon_money {
+	background: url(../img/icon_money.gif) no-repeat;
+	background-size: 13px;
+}
+
+.icon_peple {
+	background: url(../img/icon_peple.gif) no-repeat;
+	background-size: 13px;
+}
+
+.icon_night_01 {
+	background: url(../img/icon_night_01.gif) no-repeat;
+	background-size: 32px 13px;
+}
+
+.icon_night_02 {
+	background: url(../img/icon_night_02.gif) no-repeat;
+	background-size: 32px 13px;
+}
+
+.box-arrow-horizontal {
+	background: url(../img/icon_arrow_cassete.gif) no-repeat #fff right center;
+	background-size: 9.5px 17.5px;
+}
+// search cassete style --
+
+// search cassete style ++
+.reservation {
+	background:#d73839;
+	font-size: 10px;
+	color: #fff;
+}
+// search cassete style --

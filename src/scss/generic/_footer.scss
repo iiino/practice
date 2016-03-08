@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.footer {
+	position: relative;
+	background: #fff;
+	.footerInner {
+		padding:10px;
+		display: table;
+		& span,small {
+			display:table-cell;
+			vertical-align: bottom;
+		}
+		& small {
+			font-size: 10px;
+			color: #666;
+			padding-left: 5px;
+		}
+	}
+	.pc {
+		position: absolute;
+		top: 10.5px;
+		right: 10px;
+		& > a {
+			display: block;
+			width: 39px;
+			color: #3e3a39;
+			background: url(../img/icon_pc.gif) #ebebeb 7.5px center no-repeat;
+			background-size: 12px;
+			font-size: 10px;
+			text-align: right;
+			padding:4px 7.5px;
+			border-radius: 3px;
+		}
+	}
+}

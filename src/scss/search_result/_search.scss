@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+.searchInfo {
+	background: #4b5c8e;
+	background-size: 356px 117.5px;
+	.searchInfoInner {
+		font-size: 11px;
+		color: #fff;
+		background: rgba(75,92,142,0.4);
+		padding: 16px;
+		.searchInfoArea {
+			font-size: 16px;
+			margin-top: 8px;
+		}
+	}
+}
+
+// 検索結果ページの場合は上記に相殺処理をする
+.page-search_result {
+	.searchInfo {
+		background: url('../img/mv_search_result.png') no-repeat center;
+		background-size: 100% auto;
+		.searchInfoArea {
+			font-size: 14px;
+			line-height: 1.4;
+		}
+	}
+}
+
+
+.searchStatus {
+	position: relative;
+	z-index: 1;
+	.searchStatusInner > div {
+		display: table;
+		background: #ebebeb;
+		width: 100%;
+		box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.23);
+		z-index: 100;
+		& > span {
+			display: table-cell;
+			vertical-align: middle;
+			&:last-child { text-align: center;}
+			& a {
+				width: 68px;
+				height: 30px;
+				font-size: 11px;
+				font-weight: bold;
+				line-height: 30px;
+				color: #fff;
+				border-radius: 3px;
+				background: #5176e1;
+				float: right;
+				&.hover { opacity: 0.7;}
+			}
+		}
+		.cellInner {
+			padding: 10px 16px;
+			overflow: hidden;
+			& > div {
+				max-width: 195px;
+				font-size: 11px;
+				line-height: 1.273;
+				color: #666;
+				padding: 3px 0 3px 20px;
+				margin: 3px 0;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+	}
+}
+
+
+.searchStatusSelect ul > li > p > a {
+	display: block;
+	overflow: hidden;
+	font-size: 11px;
+	color: #666;
+	padding: 16px 16px 16px 36px;
+}
+

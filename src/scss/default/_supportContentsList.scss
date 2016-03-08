@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+// recommendSearch ++
+.recommendSearchInner {
+	& ul {
+		background:#fff;
+		& > li {
+			border-bottom: 1px solid #d2d2d2;
+		}
+	}
+}
+
+.towColumn_ContentsList {
+	& > a {
+		position: relative;
+		display: table;
+		box-sizing: border-box;
+		width: 100%;
+		color: #666;
+		padding: 16px 32px 16px 16px;
+		&:after {
+			content: '';
+			display: block;
+			width: 7px;
+			height: 12.5px;
+			position: absolute;
+			top: 50%;
+			right: 16px;
+			background: url(../img/arrow_gray.gif) no-repeat right center;
+			background-size: 7px 12.5px;
+			margin-top: -6.25px;
+		}
+	}
+	.listContentsCell {
+		display: table-cell;
+		vertical-align: middle;
+		width: 50px;
+
+		& > img {
+			min-width: 50px;
+			height: 50px;
+			background: #888;
+		}
+		& > p {
+			font-size: 13px;
+			line-height: 1.5;
+		}
+		& > span {
+			font-size: 11px;
+			line-height: 1.5;
+		}
+		&:last-child {
+			width: auto;
+			color: #666;
+			padding-left: 16px;
+		}
+	}
+}
+
+.planSearch .item_list li {
+	overflow: hidden;
+	> a {
+		width: 100%;
+		font-size: 13px;
+		padding: 16px 32px 16px 16px;
+	}
+}
+// recommendSearch --

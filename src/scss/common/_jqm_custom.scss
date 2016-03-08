@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+// jq mobile style ++
+.vertical_list{
+	.ui-field-contain{
+		.ui-select{
+			margin:0;
+		}
+	}
+	.ui-content{padding:0;}
+}
+.ui-select .ui-btn>span:not(.ui-li-count){
+	text-align: left;
+	font-size: 13px;
+	text-shadow: none!important;
+	border-radius: 0!important;
+	color: #5176e1;
+	padding: 0 12px 0 0;
+}
+.ui-select{
+	.ui-btn{
+		border: none;
+		background: #fff;
+		padding:10px 15px;
+		box-shadow: none;
+		height: 19px;
+		line-height: 19px;
+		font-size: 12px;
+	}
+}
+.ui-icon-carat-d:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 12px;
+	height: 6px;
+	background:url(../img/arrow_select.gif) no-repeat center;
+	background-size: 11.5px 6px;
+}
+.change_list_inner .ui-content .ui-field-contain{
+	padding: 0;
+	#reservation-1-button,#reservation-2-button{
+		height: 46px;
+		line-height: 46px;
+		padding: 0 15px;
+		border-radius: 0;
+	}
+}
+
+.ui-btn-icon-right:after {
+	right: 12px;
+}
+
+.ui-btn-icon-notext:after, .ui-btn-icon-left:after, .ui-btn-icon-right:after {
+	top: 50%;
+}
+// jq movile style --

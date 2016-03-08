@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.logoArea {
+	position: relative;
+	z-index: 1;
+	background: #ebebeb;
+	.headerInner {
+		padding: 14px 10px;
+		& a {
+			display: table;
+			& span {
+				display: table-cell;
+				vertical-align: middle;
+				&:first-child { padding-right: 10px;}
+				&:last-child {
+					background: #fff;
+					padding: 0 10px;
+					color: #000;
+					font-weight: bold;
+					line-height: 1.5;
+					font-size: 14px;
+					position: relative;
+					& img {
+						position: absolute;
+						top: 6px;
+						left: -6px;
+					}
+				}
+			}
+		}
+	}
+}

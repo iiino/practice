@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+// 初期設定(ディレクトリ名：「common」)
+@import "common/_reset.scss";
+@import "common/_common.scss";
+@import "common/_jqm_custom.scss";
+@import "common/_animate.scss";
+
+// 汎用パーツ(ディレクトリ名：「generic」)
+@import "generic/_header.scss";
+@import "generic/_footer.scss";
+@import "generic/_topLink.scss";
+
+// トップ系(ディレクトリ名：「default」)
+@import "default/_visual.scss";
+@import "default/_purposesearch.scss";
+@import "default/_supportContentsList.scss";
+@import "default/_planSearch.scss";
+
+// 条件変更・遷移途中ページ(ディレクトリ名：「search_change」)
+
+// 検索結果(ディレクトリ名：「search_result」)
+@import "search_result/_search.scss";
+@import "search_result/_numberdisplay.scss";
+@import "search_result/_searchcassete.scss";
+@import "search_result/_searchcondition.scss";
+@import "search_result/_searchconditionSelect.scss";

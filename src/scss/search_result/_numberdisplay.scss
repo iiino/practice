@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.numberDisplay {
+	.numberDisplayInner {
+		background: #fff373;
+		padding: 16px;
+		p {
+			font-size: 10px;
+			color: #666;
+			span {
+				font-size: 13px;
+				color: #d73839;
+			}
+		}
+	}
+}
